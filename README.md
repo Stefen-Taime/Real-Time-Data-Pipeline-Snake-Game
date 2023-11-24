@@ -6,7 +6,7 @@
 ### Prerequisites
 
 - **Confluent Cloud Account**: If you do not have a Confluent Cloud account, you can [create one here](https://www.confluent.io/confluent-cloud/tryfree/). It's free for a trial period of more than 30 days, and no credit card is required.
--  **clickhouse Cloud**: You can also try clickhouse for free at [clickhouse Free Trial][https://redis.com/try-free/](https://clickhouse.cloud/signUp?loc=doc-card-banner).
+-  **clickhouse Cloud**: You can also try clickhouse for free at [clickhouse Free Trial](https://clickhouse.cloud/signUp?loc=doc-card-banner).
 - **Redis**: You can also try Redis for free at [Redis Free Trial](https://redis.com/try-free/).
 
 Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster using Docker Compose.
