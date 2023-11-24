@@ -1,5 +1,5 @@
 # Real-Time Data Pipeline for Snake Game
-![Architecture Splunk](archi.png)
+![Architecture Splunk](game.png)
 
 ## Getting Started
 
