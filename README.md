@@ -1,5 +1,5 @@
 # Real-Time Data Pipeline for Snake Game
-![Architecture Splunk](game.png)
+![Architecture Splunk](img/game.png)
 
 ## Getting Started
 
@@ -59,7 +59,7 @@ Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster usi
    docker run -p 5000:5000 my-flask-app
    ```
    Once done, navigate to `localhost:5000` to see the game interface.
-   ![Architecture Splunk](game1.png)
+   ![Architecture Splunk](img/game1.png)
 
 ### Running the Pipeline
 
@@ -72,7 +72,7 @@ Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster usi
    docker exec -it <container_id> /opt/flink/bin/sql-client.sh embedded -f job.sql
    ```
    You can check `localhost:8081` to see if the job is running correctly.
-   ![Architecture Splunk](flink.png)
+   ![Architecture Splunk](img/flink.png)
 
 ### Dashboard
 
@@ -82,5 +82,5 @@ Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster usi
    python -m http.server
    ```
    Access it on port 8000. Refresh the page to switch users when playing on port 5000. You can also check your topics after each game over to view the data.
-   ![Architecture Splunk](dashboard.png)
+   ![Architecture Splunk](img/dashboard.png)
    
