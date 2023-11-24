@@ -2,6 +2,12 @@
 ![Architecture Splunk](img/game.png)
 
 ## Getting Started
+This project enables users to play the classic Snake game online. It integrates Redis for connection data management, Flask API for game data retrieval, Kafka for event processing, Flink SQL for real-time analysis, and ClickHouse for data storage. A dashboard designed with Chart.js displays player rankings, updated every 5 seconds.
+
+## Features
+- Online Snake game with score recording.
+- Real-time analytics with Kafka, Flink SQL, and ClickHouse.
+- Interactive dashboard with automatic updates.
 
 ### Prerequisites
 
