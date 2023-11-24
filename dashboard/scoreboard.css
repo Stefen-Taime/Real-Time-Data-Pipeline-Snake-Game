@@ -1,0 +1,68 @@
+#scoreboard {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 5% auto; 
+  }
+  
+  html, body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  }
+    
+
+body {
+    background-color: #1a1a1a; 
+    color: #d4d4d4; 
+  }
+  
+  #scoreboard {
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+  
+  #scoreboard th, #scoreboard td {
+    border: 1px solid #0f9d58; 
+    padding: 10px;
+    text-align: center; 
+  }
+  
+  #scoreboard th {
+    background-color: #0f9d58; 
+  }
+  
+  #scoreboard td {
+    background-color: #262626; 
+  }
+  
+  #scoreboard tr:nth-child(even) td {
+    background-color: #303030; 
+  }
+  
+  .rank, .score, .level, .losses, .duration {
+    color: #e6e6e6; 
+  }
+  
+  .name {
+    color: #f7c143; 
+  }
+  
+  .score {
+    color: #32CD32; 
+  }
+  .level {
+    color: #3498DB; 
+  }
+  .losses {
+    color: #E67E22; 
+  }
+  .duration {
+    color: #9B59B6; 
+  }
+
+  
+  

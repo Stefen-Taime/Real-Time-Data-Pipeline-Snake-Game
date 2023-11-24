@@ -1,0 +1,6 @@
+flask
+flask-cors
+redis
+confluent-kafka
+pandas
+clickhouse-connect

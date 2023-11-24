@@ -1,0 +1,44 @@
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    background-image: url('img.jpg'); 
+    background-size: cover; 
+    display: none; 
+    margin: 0 auto;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+input[type="text"] {
+    width: 200px; 
+}

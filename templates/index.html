@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <div id="startScreen">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+
+        <canvas id="snakeGame" width="400" height="400" tabindex="0"></canvas>
+
+        <!-- Bouton Rejouer (masqué initialement) -->
+        <button id="replayButton" style="display: none;" onclick="replayGame()">Play again</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='snake.js') }}"></script>
+</body>
+</html>
