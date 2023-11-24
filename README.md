@@ -82,6 +82,8 @@ Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster usi
    npm install chart.js
    python -m http.server
    ```
-   Access it on port 8000. Refresh the page to switch users when playing on port 5000. You can also check your topics after each game over to view the data.
+   Access it on port 8000.
+   Refresh the page to switch users when playing game on port 5000.
+    You can also check your topics after each game over to view the data.
    ![Architecture Splunk](img/dashboard.png)
    
