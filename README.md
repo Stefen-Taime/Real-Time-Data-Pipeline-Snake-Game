@@ -1,5 +1,3 @@
-# Real-Time-Data-Pipeline-Snake-Game
-
 # Real-Time Data Pipeline for Snake Game
 
 ## Getting Started
