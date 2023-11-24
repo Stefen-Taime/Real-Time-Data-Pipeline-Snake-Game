@@ -56,8 +56,22 @@ Alternatively, if you prefer, you can deploy a local Kafka and Redis cluster usi
        └── index.html
    ```
 
-### Setting Up
 
+### Configuring ClickHouse to import real-time data from Kafka
+To configure ClickHouse to import real-time data from Kafka, follow these steps:
+
+1. Access the ClickHouse web console.
+2. Open the SQL console.
+3. On the left-hand side of the interface, select the 'Import' option.
+4. Choose 'Kafka' as import source.
+5. Enter the necessary credentials:
+   - API Key
+   - API Secret
+   - Servers
+   - Integration Name
+6. In the next step, select the 'SUMMARY_STATS_TOPIC' topic in JSON format.
+
+### Setting Up
 1. Go to Confluent Cloud and create two topics: `game_over_topic` and `SUMMARY_STATS_TOPIC`.
 2. In the `app.py` file, fill in the connection values for Redis and Kafka.
 3. Build and start the Flask API and game server:
